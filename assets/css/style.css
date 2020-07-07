@@ -2109,7 +2109,7 @@ table {
 
     /* services */
 
-    .services__item {}
+
 
     /* clients */
     .section--map {
@@ -2141,11 +2141,7 @@ table {
 
     /* footer */
 
-    .footer {
-        background-size: 330px auto;
-        background-position: left -30px bottom -30px,
-            right -30px bottom -30px;
-    }
+
 
     /* main */
 
@@ -2316,11 +2312,7 @@ table {
 
     /* footer */
 
-    .footer {
-        background-size: 250px auto;
-        background-position: left -20px bottom -30px,
-            right -20px bottom -30px;
-    }
+
 
     /* main */
 
@@ -2430,6 +2422,10 @@ table {
         margin-top: 20px;
     }
 
+    /* prices */
+
+
+
     /* mission */
 
     .mission-title {
@@ -2453,10 +2449,7 @@ table {
 
     /* footer */
 
-    .footer {
-        background-position: left -120px bottom -80px,
-            right -120px bottom -80px;
-    }
+
 
     /* modal */
 
@@ -2467,23 +2460,14 @@ table {
 
 }
 
-@media (max-width: 320px) {
-
-    .intro__title {
-        font-size: 40px;
-        line-height: 70px;
-
-
-    }
-
+@media (max-width: 400px) {
     .box {
         font-size: 30px;
-        right: -33%;
+        right: -15%;
     }
 
     .mission {
-        top: -1px;
-
+        top: 0px;
     }
 
     .mission-title {
@@ -2495,30 +2479,58 @@ table {
         width: 100%;
     }
 
-    .services__name {
-        display: flex;
-        flex-direction: column;
-    }
-
-    /* .benefits__col--right {
-        width: 100%;
-    } */
-
     .benefits-list {
         padding: 0;
         min-width: 290px;
     }
 
     .benefits-list__item {
-        
-        
+        padding-top: 100px;
     }
 
     .benefits-list__item::before {
-        left: 0%;        
+        left: 50%;
+        transform: translateX(-50%);
+    }
+}
+
+@media (max-width: 320px) {
+
+    .intro__title {
+        font-size: 40px;
+        line-height: 70px;
     }
 
-    
+    .box {
+        font-size: 30px;
+        right: -33%;
+    }
+
+    .section__title {
+        font-size: 32px;
+    }
+
+
+
+
+
+
+    /* .benefits__col--right {
+        width: 100%;
+    } */
+
+
+
+    .img-left {
+        display: none;
+    }
+
+    .accordion h2 {
+        font-size: 11px;
+    }
+
+
+
 }
 
 
